@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;700&family=Poppins:wght@400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+#tutor-btn {
+  background: linear-gradient(
+    148deg,
+    rgba(45, 98, 122, 1) 6%,
+    rgba(14, 70, 97, 1) 34%,
+    rgba(5, 48, 69, 1) 66%,
+    rgba(5, 48, 69, 1) 100%
+  );
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+#tutor-btn:hover {
+  color: #010606;
+  background: #fff;
+  font-weight: 700;
+}
+
+/* Browser track css */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #053146;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c7e6f8;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
