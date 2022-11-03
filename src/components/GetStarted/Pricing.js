@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import {
   PricingContainer,
   PricingHeading,
@@ -11,17 +10,19 @@ import {
   PayButton,
 } from "./GetStartedElements";
 
+import "aos/dist/aos.css";
 import PriceImage2 from "../../images/pricing-img-2.svg";
 import PriceImage3 from "../../images/pricing-img-3.svg";
 import PriceImage4 from "../../images/pricing-img-4.svg";
 import PriceImage5 from "../../images/pricing-img-5.svg";
 
 const Pricing = () => {
+ 
   return (
     <PricingContainer>
       <PricingHeading>Pricing</PricingHeading>
       <PricingWrapper>
-        <PriceWrap data-aos="flip-left">
+        <PriceWrap>
           <BoxHeading>Starter</BoxHeading>
           <PriceImage src={PriceImage5} alt="PriceImage" />
           <PriceHeading>Free Class</PriceHeading>
@@ -38,7 +39,7 @@ const Pricing = () => {
           </ActionButton>
         </PriceWrap>
 
-        <PriceWrap data-aos="flip-right">
+        <PriceWrap>
           <BoxHeading>Academic Lesson</BoxHeading>
           <PriceImage src={PriceImage2} alt="PriceImage" />
           <PriceHeading>&#x20A6;12,999/Month</PriceHeading>
@@ -51,7 +52,7 @@ const Pricing = () => {
           <PayButton to="/pay">Pay</PayButton>
         </PriceWrap>
 
-        <PriceWrap data-aos="flip-left">
+        <PriceWrap>
           <BoxHeading>Tech Skill</BoxHeading>
           <PriceImage src={PriceImage3} alt="PriceImage" />
           <PriceHeading>&#x20A6;13,999/Month</PriceHeading>
@@ -64,7 +65,7 @@ const Pricing = () => {
           <PayButton to="/pay">Pay</PayButton>
         </PriceWrap>
 
-        <PriceWrap data-aos="flip-right">
+        <PriceWrap>
           <BoxHeading>Academic & Skill</BoxHeading>
           <PriceImage src={PriceImage4} alt="PriceImage" />
           <PriceHeading>&#x20A6;20,999/Month</PriceHeading>
