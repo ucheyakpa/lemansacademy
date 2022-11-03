@@ -10,7 +10,6 @@ import {
   PayButton,
 } from "./GetStartedElements";
 
-import "aos/dist/aos.css";
 import PriceImage2 from "../../images/pricing-img-2.svg";
 import PriceImage3 from "../../images/pricing-img-3.svg";
 import PriceImage4 from "../../images/pricing-img-4.svg";
