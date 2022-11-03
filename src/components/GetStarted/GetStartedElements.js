@@ -38,7 +38,7 @@ export const Header = styled.header`
 
 export const LemansHeader = styled.h1`
   padding-right: 1em;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: "Poppins";
   font-weight: 500;
   color: #053146;
@@ -46,7 +46,7 @@ export const LemansHeader = styled.h1`
   line-height: 1.2;
 
   @media screen and (max-width: 30em) {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
 `;
 
@@ -70,22 +70,22 @@ export const Info = styled.div`
 
 export const HeroHeader = styled.h1`
   font-family: "Poppins";
-  font-size: 2.2rem;
+  font-size: 2rem;
 
   @media screen and (max-width: 48em) {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   @media screen and (max-width: 30em) {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 `;
 
 export const Para = styled.p`
-  font-size: 1.26rem;
+  font-size: 1.35rem;
   margin-bottom: 1em;
 
   @media screen and (max-width: 30em) {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 `;
 
@@ -131,7 +131,6 @@ export const PricingContainer = styled.section`
 
 export const PricingHeading = styled.h1`
   font-size: 1.4rem;
-  /* background: rgb(5, 49, 70); */
   background: #053146;
   padding: 0.8em;
   border-radius: 5px;
@@ -143,11 +142,11 @@ export const PricingHeading = styled.h1`
   margin: 2.5em auto;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   @media screen and (max-width: 30em) {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 `;
 
@@ -198,7 +197,7 @@ export const PriceWrap = styled.div`
 
   @media screen and (max-width: 30em) {
     & li {
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
   }
   @media screen and (max-width: 24.4em) {
@@ -222,17 +221,17 @@ export const PriceImage = styled(Image)`
 
 export const BoxHeading = styled.h2`
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #053146;
   text-align: center;
   line-height: 1.5;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   @media screen and (max-width: 30em) {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 `;
 
@@ -248,7 +247,6 @@ export const ActionButton = styled.a`
   padding-inline: 3em;
   border-radius: 5px 5px 0 0;
   font-size: 1.3rem;
-  font-weight: bold;
   background: linear-gradient(
     148deg,
     rgba(45, 98, 122, 1) 6%,
@@ -257,10 +255,11 @@ export const ActionButton = styled.a`
     rgba(5, 48, 69, 1) 100%
   );
   color: #fff;
+  letter-spacing: 1.2px;
 
   @media screen and (max-width: 30em) {
     padding-inline: 2em;
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 
   &:hover {
@@ -277,7 +276,6 @@ export const PayButton = styled(Link)`
   padding-inline: 3em;
   border-radius: 5px 5px 0 0;
   font-size: 1.3rem;
-  font-weight: bold;
   background: linear-gradient(
     148deg,
     rgba(45, 98, 122, 1) 6%,
@@ -286,6 +284,12 @@ export const PayButton = styled(Link)`
     rgba(5, 48, 69, 1) 100%
   );
   color: #fff;
+  letter-spacing: 1.2px;
+
+  @media screen and (max-width: 30em) {
+    padding-inline: 2em;
+    font-size: 1rem;
+  }
 
   &:hover {
     color: #1a1b21;
