@@ -110,7 +110,7 @@ export const HeroH1 = styled.h1`
     text-align: center;
   }
   @media screen and (max-width: 30em) {
-    font-size: 1.8rem;
+    font-size: 1.68rem;
   }
 `;
 
@@ -131,7 +131,7 @@ export const HeroP = styled.p`
   }
 
   @media screen and (max-width: 30em) {
-    font-size: 1.1rem;
+    font-size: 1.06rem;
   }
 `;
 

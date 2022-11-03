@@ -22,8 +22,11 @@ const PayHeader = styled.h2`
   font-size: 1.6rem;
   text-align: center;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     font-size: 1.4rem;
+  }
+  @media screen and (max-width: 30em) {
+    font-size: 1.2rem;
   }
 `;
 
@@ -42,6 +45,10 @@ const ImageContainer = styled.div`
   padding: 1em;
   border-radius: 5px;
   color: #000;
+
+  @media screen and (max-width: 30em) {
+    height: 68px;
+  }
 
   &:first-child {
     gap: 4em;
@@ -64,6 +71,10 @@ const ImageContainer = styled.div`
 
 const Image = styled.img`
   width: 11%;
+
+  @media screen and (max-width: 30em) {
+    width: 9.6%
+  }
 `;
 
 const PayStackImage = styled.img`
@@ -71,6 +82,9 @@ const PayStackImage = styled.img`
   flex: 1;
   cursor: pointer;
   object-fit: cover;
+  @media screen and (max-width: 30em) {
+    max-width: 46%;
+  }
 `;
 
 const CardWrapper = styled.div`
@@ -102,6 +116,11 @@ const Home = styled(FaHome)`
   left: 40px;
   font-size: 3rem;
   color: #053146;
+
+  @media screen and (max-width: 30em) {
+    left: 30px;
+    font-size: 2.4rem;
+  }
 `;
 
 const ExternalLink = styled.a`
@@ -120,6 +139,9 @@ const ExternalLink = styled.a`
     margin-left: 1.6em;
     text-align: center;
 
+    @media screen and (max-width: 30em) {
+      font-size: 1.1rem;
+    }
     @media screen and (max-width: 26em) {
       margin-left: 1em;
     }

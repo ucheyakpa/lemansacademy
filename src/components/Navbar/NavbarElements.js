@@ -4,10 +4,11 @@ import { Link as LinkScroll } from "react-scroll";
 import { FaBars } from "react-icons/fa";
 
 export const FaBar = styled(FaBars)`
-  font-size: 1.2em;
+  font-size: 1em;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: .1em;
   color: ${({ scrollnav }) => (scrollnav ? "fff" : "#c7e6f8")} !important;
 `;
 
@@ -22,16 +23,20 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   font-size: 1rem;
-  position: sticky;
-  top: 0;
   z-index: 10;
 
+  /* position: sticky; */
+  /* top: 0; */
+  position: fixed;
+  top: 90px;
+  width: 100%;
+  
   @media screen and (max-width: 60em) {
     transition: 0.8s all ease;
   }
-
   @media screen and (max-width: 30em) {
-    height: 73px;
+    height: 65px;
+    /* height: 73px; */
   }
 `;
 
@@ -45,7 +50,8 @@ export const NavbarContainer = styled.div`
   max-width: 88em;
 
   @media screen and (max-width: 30em) {
-    height: 75px;
+    height: 65px;
+    /* height: 75px; */
   }
 `;
 
@@ -67,7 +73,7 @@ export const LogoImage = styled.img`
   height: 3.6em;
 
   @media screen and (max-width: 30em) {
-    height: 3.1em;
+    height: 2.4em;
   }
 `;
 
@@ -83,7 +89,7 @@ export const MobileIcon = styled.div`
     font-size: 1.8rem;
     cursor: pointer;
   }
-
+  
   @media screen and (max-width: 30em) {
     transform: translate(-100%, 50%);
   }

@@ -50,11 +50,12 @@ export const CertInfo = styled.div`
     color: #fff;
     line-height: 1.4;
 
-    @media screen and (max-width: 55em) {
-      font-size: 1.15rem;
+    @media screen and (max-width: 48em) {
+      font-size: 1.1rem;
     }
     @media screen and (max-width: 30em) {
       text-align: center;
+      font-size: 1rem;
     }
   }
 `;

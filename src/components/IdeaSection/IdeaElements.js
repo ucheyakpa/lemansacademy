@@ -21,13 +21,13 @@ export const HeaderText = styled.h1`
   padding-block: 0.6em;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.4;
     text-align: center;
   }
 
   @media screen and (max-width: 30em) {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 `;
 
@@ -101,6 +101,10 @@ export const Heading = styled.h2`
   font-size: 1.4rem;
   font-weight: 600;
   font-family: "poppins", sans-serif;
+
+  @media screen and (max-width: 48em) {
+    font-size: 1.2rem;
+  }
 `;
 
 export const Para = styled.p`
@@ -108,7 +112,7 @@ export const Para = styled.p`
   font-size: 1.15rem;
   line-height: 1.3;
 
-  @media screen and (max-width: 30em) {
-    font-size: 1.06rem;
+  @media screen and (max-width: 48em) {
+    font-size: 1rem;
   }
 `;

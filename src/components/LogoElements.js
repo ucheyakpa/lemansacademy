@@ -9,7 +9,7 @@ const LogoContainer = styled.figure`
   background-color: ${({ bgColor }) => (bgColor ? "transparent" : "#f9f9f9")};
 
   @media screen and (max-width: 30em) {
-    width: 5.8em;
+    width: 5.6em;
   }
 `;
 

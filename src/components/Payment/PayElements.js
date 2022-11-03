@@ -71,12 +71,12 @@ export const Para = styled.p`
   color: #053146;
   text-align: center;
   padding-inline: 1.2em;
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   font-weight: 600;
   max-width: 500px;
 
-  @media screen and (max-width: 20.75em) {
-    font-size: 1.2em;
+  @media screen and (max-width: 30em) {
+    font-size: 1.1rem;
   }
 `;
 
@@ -104,18 +104,20 @@ export const Button = styled(Link)`
   }
 
   @media screen and (max-width: 30em) {
-    font-size: 1.2rem;
-  }
-  @media screen and (max-width: 21em) {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    padding: 1.4em;
   }
 `;
 
 export const ImageWrap = styled.figure`
-  max-width: 300px;
+  max-width: 18.5em;
 
   @media screen and (max-width: 48em) {
-    max-width: 400px;
+    max-width: 17em;
+  }
+
+  @media screen and (max-width: 30em) {
+    max-width: 14em;
   }
 `;
 

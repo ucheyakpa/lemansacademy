@@ -27,8 +27,6 @@ const InfoSection = ({
   alt,
   primary,
   dark,
-  dark2,
-  fade,
 }) => {
   const toggleHome = () => {
     scroll.scrollToTop();

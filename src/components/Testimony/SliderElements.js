@@ -35,11 +35,11 @@ export const Header = styled.h1`
   font-family: "Poppins";
 
   @media screen and (max-width: 48em) {
-    font-size: 2.2em;
+    font-size: 2em;
   }
 
   @media screen and (max-width: 30em) {
-    font-size: 2em;
+    font-size: 1.6em;
   }
 `;
 
@@ -47,10 +47,10 @@ export const SubHeader = styled.h2`
   color: #053146;
   font-size: 1.4rem;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
 
   @media screen and (max-width: 30em) {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 `;
 
@@ -116,13 +116,8 @@ export const Image = styled.img`
   object-fit: cover;
 
   @media screen and (max-width: 30em) {
-    height: 150px;
-    width: 150px;
-  }
-
-  @media screen and (max-width: 20em) {
-    height: 130px;
-    width: 130px;
+    height: 120px;
+    width: 120px;
   }
 `;
 
@@ -136,16 +131,17 @@ export const Info = styled.div`
   margin-top: 4em;
 
   @media screen and (max-width: 30em) {
-    margin-top: 3em;
+    margin-top: 2em;
   }
 `;
 
 export const Name = styled.h3`
   color: #be031d;
   margin-top: 1em;
+  font-size: 1.3rem;
 
   @media screen and (max-width: 30em) {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 `;
 
@@ -158,7 +154,7 @@ export const Message = styled.p`
   color: #12141D;
 
   @media screen and (max-width: 30em) {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 `;
 
@@ -172,13 +168,13 @@ export const RightQuote = styled(FaQuoteRight)`
   @media screen and (max-width: 48em) {
     bottom: 0.8em;
     right: 0.8em;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   @media screen and (max-width: 30em) {
     bottom: 0.5em;
     right: 0.5em;
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 `;
 
@@ -192,13 +188,13 @@ export const LeftQuote = styled(FaQuoteLeft)`
   @media screen and (max-width: 48em) {
     top: 0.8em;
     left: 0.8em;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   @media screen and (max-width: 30em) {
     top: 0.5em;
     left: 0.5em;
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 `;
 

@@ -46,7 +46,7 @@ export const LemansHeader = styled.h1`
   line-height: 1.2;
 
   @media screen and (max-width: 30em) {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
   }
 `;
 
@@ -73,10 +73,10 @@ export const HeroHeader = styled.h1`
   font-size: 2rem;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   @media screen and (max-width: 30em) {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 `;
 
@@ -119,8 +119,8 @@ export const Rounded = styled.div`
   );
 
   @media screen and (max-width: 30em) {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
   }
 `;
 

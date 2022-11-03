@@ -78,7 +78,7 @@ export const ServicesH1 = styled.h1`
     font-size: 2rem;
   }
   @media screen and (max-width: 30em) {
-    font-size: 1.85rem;
+    font-size: 1.4rem;
   }
 `;
 
@@ -86,6 +86,10 @@ export const ServicesH2 = styled.h2`
   font-size: 1.3rem;
   color: #000;
   margin-bottom: 0.4em;
+
+  @media screen and (max-width: 30em) {
+    font-size: 1.2rem;
+  }
 `;
 
 export const ServicesP = styled.p`
@@ -93,6 +97,10 @@ export const ServicesP = styled.p`
   text-align: center;
   padding-bottom: 2em;
   padding-inline: 2em;
+
+  @media screen and (max-width: 30em) {
+    font-size: 1rem;
+  }
 `;
 
 export const HighlightP = styled.p`
@@ -108,10 +116,14 @@ export const HighlightP = styled.p`
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
-
+  letter-spacing: 1.4px;
   
   @media screen and (max-width: 48em) {
     font-size: 1.25rem;
+  }
+
+  @media screen and (max-width: 30em) {
+    font-size: 1.1rem;
   }
 
   ${ServicesCard}:hover & {
