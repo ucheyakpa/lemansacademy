@@ -14,7 +14,6 @@ export const homeObjOne = {
   dark: true,
   primary: true,
   darkText: false,
-  fade: true,
 };
 
 export const homeObjTwo = {
@@ -34,5 +33,4 @@ export const homeObjTwo = {
   dark: false,
   primary: false,
   darkText: true,
-  fade: false,
 };

@@ -20,8 +20,6 @@ import {
   Option,
   Alert,
 } from "./ContactElements";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Contact = () => {
   const [values, setValues] = useState({
@@ -69,11 +67,6 @@ const Contact = () => {
     }
   }, [status]);
 
-  // Animation on Scroll
-  useEffect(() => {
-    AOS.init({ duration: 1500 });
-  }, []);
-
   const renderAlert = () => {
     return <Alert>Your message was sent successfully!!</Alert>;
   };
@@ -81,7 +74,7 @@ const Contact = () => {
   return (
     <ContactSection>
       <ContactContainer id="contact">
-        <InfoContainer data-aos="fade-right">
+        <InfoContainer>
           <ImageContainer>
             <Image src={ContactImage} alt="CONTACT" />
           </ImageContainer>
@@ -89,7 +82,7 @@ const Contact = () => {
           <ImageHead>Let's talk about your Learning</ImageHead>
         </InfoContainer>
 
-        <FormContainer data-aos="flip-left">
+        <FormContainer>
           {status && renderAlert()}
           <Form onSubmit={handleSubmit}>
             <FormHeader>Get a home lesson tutor</FormHeader>

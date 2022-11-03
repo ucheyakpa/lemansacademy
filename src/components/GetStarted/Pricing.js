@@ -11,18 +11,12 @@ import {
   PayButton,
 } from "./GetStartedElements";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
 import PriceImage2 from "../../images/pricing-img-2.svg";
 import PriceImage3 from "../../images/pricing-img-3.svg";
 import PriceImage4 from "../../images/pricing-img-4.svg";
 import PriceImage5 from "../../images/pricing-img-5.svg";
 
 const Pricing = () => {
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
-
   return (
     <PricingContainer>
       <PricingHeading>Pricing</PricingHeading>

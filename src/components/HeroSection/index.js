@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button } from "../ButtonElements";
 import heroImg from "../../images/learning-child.jpg";
 import {
@@ -12,8 +12,6 @@ import {
   ArrowForword,
   ArrowRight,
 } from "./HeroElements";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -22,13 +20,9 @@ const HeroSection = () => {
     setHover(!hover);
   };
 
-  useEffect(() => {
-    AOS.init({ duration: 2000 });
-  }, []);
-
   return (
     <HeroContainer id="home">
-      <HeroContent data-aos="fade-right">
+      <HeroContent>
         <HeroH1>Learn, Skillup & Grow</HeroH1>
         <HeroP>
           Home lesson and acquisition of relevant tech 

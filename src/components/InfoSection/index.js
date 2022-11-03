@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Button } from "../ButtonElements";
 import { animateScroll as scroll } from "react-scroll";
 import {
@@ -14,8 +13,6 @@ import {
   ImgWrap,
   Img,
 } from "./InfoElements";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const InfoSection = ({
   lightBg,
@@ -37,16 +34,12 @@ const InfoSection = ({
     scroll.scrollToTop();
   };
 
-  useEffect(() => {
-    AOS.init({ duration: 1500 });
-  }, []);
-
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
-            <Column1 data-aos="slide-up">
+            <Column1>
               <TextWrapper>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Text darkText={darkText}>{descripion}</Text>
@@ -62,7 +55,7 @@ const InfoSection = ({
                 </BtnWrap>
               </TextWrapper>
             </Column1>
-            <Column2 data-aos={fade ? "fade-left" : "fade-right"}>
+            <Column2>
               <ImgWrap>
                 <Img src={img} alt={alt} />
               </ImgWrap>
