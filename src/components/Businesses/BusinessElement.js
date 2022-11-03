@@ -25,7 +25,7 @@ export const ImageContainer = styled.div`
     width: 7em;
   }
   @media screen and (max-width: 30em){
-    width: 6em;
+    width: 5em;
   }
 `;
 

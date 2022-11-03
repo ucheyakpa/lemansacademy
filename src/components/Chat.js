@@ -1,10 +1,29 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { SiChatbot } from "react-icons/si";
+
+const scale = keyframes`
+ 0%{
+  transform: scale(1);
+ }
+
+ 25%{
+  transform: scale(0.95);
+ }
+
+ 75%{
+  transform: scale(0.95);
+ }
+
+ 100%{
+  transform: scale(1);
+ }
+`;
 
 const ChatContainer = styled.div`
   color: red;
   height: 100px;
   width: 100px;
+  animation: ${scale} linear 2s infinite;
   background: linear-gradient(
     148deg,
     rgba(45, 98, 122, 1) 6%,
@@ -31,8 +50,8 @@ const ChatContainer = styled.div`
     width: 90px;
   }
   @media screen and (max-width: 30em) {
-    height: 85px;
-    width: 85px;
+    height: 74px;
+    width: 74px;
   }
 `;
 
@@ -50,7 +69,7 @@ const Span = styled.span`
   font-weight: 700;
 
   @media screen and (max-width: 30em) {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 `;
 
@@ -58,7 +77,7 @@ const ChatBox = styled(SiChatbot)`
   font-size: 2.5em;
 
   @media screen and (max-width: 30em) {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 `;
 

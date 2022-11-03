@@ -17,17 +17,17 @@ export const QuestionsContainer = styled.section`
 `;
 
 export const MainHeading = styled.h1`
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-align: center;
   padding: 1em;
   font-family: "Poppins", sans-serif;
   color: #053146;
 
   @media screen and (max-width: 48em) {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   @media screen and (max-width: 30em) {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 `;
 
@@ -58,6 +58,10 @@ export const QuestionWrapper = styled.div`
   @media screen and (max-width: 48em) {
     width: 90%;
   }
+  @media screen and (max-width: 30em) {
+    width: 90%;
+    padding: 1em 1.4em;
+  }
 `;
 
 export const QuestionHeader = styled.div`
@@ -72,8 +76,12 @@ export const Question = styled.h2`
   color: #dcdce1;
   line-height: 1.3;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     font-size: 1.2rem;
+  }
+
+  @media screen and (max-width: 30em) {
+    font-size: 1rem;
   }
 `;
 
@@ -100,6 +108,6 @@ export const Answer = styled.p`
   transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
 
   @media screen and (max-width: 30em) {
-    font-size: 1.06rem;
+    font-size: 1rem;
   }
 `;

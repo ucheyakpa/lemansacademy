@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
   z-index: 1999;
   width: 100%;
   height: 100%;
-  background: #12141D;
+  background: #12141d;
   display: grid;
   align-items: center;
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
@@ -19,10 +19,10 @@ export const SidebarContainer = styled.aside`
 
 export const Icon = styled.div`
   position: absolute;
-  top: 1.2rem;
-  right: 1.5rem;
+  top: 1.1rem;
+  right: 1.4rem;
   background: transparent;
-  font-size: 2rem;
+  font-size: 1.4rem;
   cursor: pointer;
   outline: none;
 `;
@@ -55,13 +55,13 @@ export const SidebarLink = styled(LinkScroll)`
   font-size: 1.6rem;
   text-decoration: none;
   list-style: none;
-  transition: 0.2s ease-in-out;
   color: #fff;
-  cursor: pointer;
 
-  &:hover {
-    color: #c7e6f8;
-    transition: 0.2s ease-in-out;
+  @media screen and (max-width: 48em) {
+    font-size: 1.4rem;
+  }
+  @media screen and (max-width: 48em) {
+    font-size: 1.2rem;
   }
 `;
 
@@ -71,21 +71,18 @@ export const SideBtnWrap = styled.div`
 `;
 
 export const SidebarRoute = styled(LinkRouter)`
-  border-radius: 1em;
+  border-radius: 0.6em;
   background: #053146;
   white-space: nowrap;
-  padding: 0.8em 1.6em;
+  padding: 0.8em 2em;
   color: #fff;
   font-size: 1.6rem;
   outline: none;
   border: none;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
   text-decoration: none;
 
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
+  @media screen and (max-width: 48em) {
+    font-size: 1.3rem;
   }
 `;

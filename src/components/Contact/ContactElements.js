@@ -51,7 +51,7 @@ export const ImageContainer = styled.figure`
   max-width: 18em;
 
   @media screen and (max-width: 30em) {
-    max-width: 7em;
+    max-width: 10em;
   }
 `;
 
@@ -96,11 +96,11 @@ export const ImageHead = styled(FormHeader)`
   padding-right: 1em;
 
   @media screen and (max-width: 48em) {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   @media screen and (max-width: 30em) {
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     margin-left: 1em;
   }
 `;
@@ -108,9 +108,11 @@ export const ImageHead = styled(FormHeader)`
 export const ImageP = styled.p`
   font-size: 1.2rem;
   margin-block: 0.5em;
-
+  
   @media screen and (max-width: 30em) {
     text-align: center;
+    font-size: 1rem;
+    margin-block: 1em;
   }
 `;
 
@@ -158,6 +160,11 @@ export const Button = styled.input`
   font-size: 1.4rem;
   color: #fff;
   border: none;
+  
+  @media screen and (max-width: 30em) {
+    padding: 0.7em;
+    font-size: 1.2rem;
+  }
 
   &:hover {
     scale: 0.99;
@@ -175,6 +182,10 @@ export const Button = styled.input`
 export const Label = styled.label`
   margin-bottom: -0.6em;
   font-size: 1.1rem;
+
+  @media screen and (max-width: 30em) {
+    font-size: 1rem;
+  }
 `;
 
 export const Select = styled.select`
@@ -186,6 +197,10 @@ export const Select = styled.select`
   line-height: 2;
   background: transparent;
   padding-block: 0.5em;
+
+  @media screen and (max-width: 30em) {
+    font-size: 1rem;
+  }
 `;
 
 export const Option = styled.option`

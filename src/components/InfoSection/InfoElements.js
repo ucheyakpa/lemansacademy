@@ -49,13 +49,13 @@ export const TextWrapper = styled.div`
 
 export const Heading = styled.h1`
   margin-bottom: 0.5em;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 1.4;
   font-family: "Poppins";
   color: ${({ lightText }) => (lightText ? "#fff" : "#053146")};
 
   @media screen and (max-width: 30em) {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.2;
   }
 `;
@@ -67,8 +67,8 @@ export const Text = styled.p`
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
 
   @media screen and (max-width: 30em) {
-    font-size: 1.1rem;
-    line-height: 1.25em;
+    font-size: 1rem;
+    line-height: 1.3em;
   }
 `;
 

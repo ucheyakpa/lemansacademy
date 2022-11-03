@@ -23,7 +23,7 @@ export const Button = styled(Link)`
   }
 
   @media screen and (max-width: 30em) {
-    font-size: ${({ fontbig }) => (fontbig ? "1.2rem" : "1.1rem")};
+    font-size: 1rem;
   }
 `;
 
