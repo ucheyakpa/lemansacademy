@@ -26,7 +26,7 @@ const HeroSection = () => {
         <HeroH1>Learn, Skillup & Grow</HeroH1>
         <HeroP>
           Home lesson and acquisition of relevant tech 
-          skills for kids.
+          skills for kids and teenagers.
         </HeroP>
         <HeroBtnWrapper>
           <Button

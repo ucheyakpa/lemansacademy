@@ -48,7 +48,7 @@ export const InfoContainer = styled.div`
 `;
 
 export const ImageContainer = styled.figure`
-  max-width: 18em;
+  max-width: 14em;
 
   @media screen and (max-width: 30em) {
     max-width: 10em;
@@ -90,17 +90,18 @@ export const FormHeader = styled.h2`
 `;
 
 export const ImageHead = styled(FormHeader)`
-  font-size: 2.2rem;
+  font-size: 1.9rem;
   font-family: "Poppins";
   line-height: 1.2;
   padding-right: 1em;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
+
   @media screen and (max-width: 30em) {
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     margin-left: 1em;
   }
 `;
@@ -217,8 +218,9 @@ export const Alert = styled.p`
   text-align: center;
   font-size: 1.2rem;
   font-weight: bold;
-
+  
   @media screen and (max-width: 30em) {
+    padding-block: 0.65em;
     font-size: 1rem;
   }
 `;

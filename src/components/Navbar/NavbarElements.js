@@ -8,7 +8,7 @@ export const FaBar = styled(FaBars)`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: .1em;
+  margin-top: 0.1em;
   color: ${({ scrollnav }) => (scrollnav ? "fff" : "#c7e6f8")} !important;
 `;
 
@@ -24,19 +24,15 @@ export const Nav = styled.nav`
   align-items: center;
   font-size: 1rem;
   z-index: 10;
-
-  /* position: sticky; */
-  /* top: 0; */
   position: fixed;
   top: 90px;
   width: 100%;
-  
+
   @media screen and (max-width: 60em) {
     transition: 0.8s all ease;
   }
   @media screen and (max-width: 30em) {
     height: 65px;
-    /* height: 73px; */
   }
 `;
 
@@ -51,7 +47,6 @@ export const NavbarContainer = styled.div`
 
   @media screen and (max-width: 30em) {
     height: 65px;
-    /* height: 75px; */
   }
 `;
 
@@ -70,7 +65,7 @@ export const NavLogo = styled(LinkRouter)`
 `;
 
 export const LogoImage = styled.img`
-  height: 3.6em;
+  height: 3.1em;
 
   @media screen and (max-width: 30em) {
     height: 2.4em;
@@ -89,7 +84,7 @@ export const MobileIcon = styled.div`
     font-size: 1.8rem;
     cursor: pointer;
   }
-  
+
   @media screen and (max-width: 30em) {
     transform: translate(-100%, 50%);
   }
@@ -112,8 +107,8 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkScroll)`
+  font-size: 1.25rem;
   color: #fff;
-  font-weight: ${({ scrollnav }) => (scrollnav ? "700" : "600")};
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -121,7 +116,7 @@ export const NavLinks = styled(LinkScroll)`
   height: 100%;
   cursor: pointer;
 
-  &:hover{
+  &:hover {
     color: #c7e6f8;
   }
 `;
@@ -145,11 +140,11 @@ export const NavBtnLink = styled(LinkRouter)`
     rgba(5, 48, 69, 1) 100%
   );
   white-space: nowrap;
-  padding: 0.6em 1.2em;
+  padding: 0.8em 1.2em;
   color: #fff;
   font-size: 1.3rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-size: 1.3rem;
   outline: none;
   border: none;
   cursor: pointer;

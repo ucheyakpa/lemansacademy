@@ -22,14 +22,18 @@ export const Icon = styled.div`
   top: 1.1rem;
   right: 1.4rem;
   background: transparent;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   cursor: pointer;
   outline: none;
 `;
 
 export const CloseIcon = styled(FaTimes)`
   color: #fff;
-  font-size: 1.2em;
+  font-size: 2rem;
+
+  @media screen and (max-width: 30em) {
+    font-size: 1.4rem;
+  }
 `;
 
 export const SidebarWrapper = styled.div`
@@ -52,16 +56,25 @@ export const SidebarLink = styled(LinkScroll)`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-decoration: none;
   list-style: none;
   color: #fff;
 
-  @media screen and (max-width: 48em) {
-    font-size: 1.4rem;
+  &:nth-child(3) {
+    background: linear-gradient(
+      148deg,
+      rgba(45, 98, 122, 1) 6%,
+      rgba(14, 70, 97, 1) 34%,
+      rgba(5, 48, 69, 1) 66%,
+      rgba(5, 48, 69, 1) 100%
+    );
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
   }
-  @media screen and (max-width: 48em) {
-    font-size: 1.2rem;
+
+  @media screen and (max-width: 30em) {
+    font-size: 1.26rem;
   }
 `;
 
@@ -82,7 +95,7 @@ export const SidebarRoute = styled(LinkRouter)`
   cursor: pointer;
   text-decoration: none;
 
-  @media screen and (max-width: 48em) {
+  @media screen and (max-width: 30em) {
     font-size: 1.3rem;
   }
 `;

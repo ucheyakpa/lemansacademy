@@ -41,7 +41,7 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0.2em;
+  gap: 0.3em;
   margin: 1em;
   text-align: left;
   width: 10em;
@@ -71,7 +71,7 @@ export const FooterLink = styled(Link)`
   color: #999;
 
   @media screen and (max-width: 30em) {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 
   &:hover {
@@ -88,7 +88,7 @@ export const SocialMediaLink = styled.a`
   color: #999;
 
   @media screen and (max-width: 30em) {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 
   &:hover {

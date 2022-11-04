@@ -41,7 +41,7 @@ export const TextWrapper = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     justify-content: center;
     text-align: center;
   }
@@ -49,7 +49,7 @@ export const TextWrapper = styled.div`
 
 export const Heading = styled.h1`
   margin-bottom: 0.5em;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.4;
   font-family: "Poppins";
   color: ${({ lightText }) => (lightText ? "#fff" : "#053146")};
@@ -62,7 +62,7 @@ export const Heading = styled.h1`
 
 export const Text = styled.p`
   margin-bottom: 1.5em;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.4em;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
 
@@ -76,26 +76,26 @@ export const BtnWrap = styled.div`
   display: flex;
   justify-content: flex-start;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     justify-content: center;
   }
 `;
 
 export const ImgWrap = styled.div`
-  max-width: 37em;
+  max-width: 22em;
   height: 100%;
 
-  @media screen and (max-width: 71em) {
-    min-width: 26em;
+  /* @media screen and (max-width: 71em) {
+    min-width: 18em;
   }
   @media screen and (max-width: 48em) {
-    min-width: 16em;
-  }
+    min-width: 14em;
+  } */
 `;
 
 export const Img = styled.img`
   width: 100%;
   padding: 1em 0.5em;
-  border-radius: 10px 60px 10px 60px;
+  border-radius: 10px 40px 10px 40px;
   border: 6px solid #c7e6f8;
 `;

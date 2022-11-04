@@ -13,7 +13,7 @@ export const IdeaContainer = styled.section`
 
 export const HeaderText = styled.h1`
   color: #053146;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: "poppins", sans-serif;
   font-weight: 600;
   border-top: 2.5px solid #999;
@@ -72,10 +72,10 @@ export const IdeaContent = styled.div`
 `;
 
 export const IdeaImage = styled.div`
-  width: 8em;
+  width: 7em;
 
   @media screen and (max-width: 30em) {
-    width: 7em;
+    width: 6.5em;
   }
 `;
 
@@ -98,18 +98,22 @@ export const IdeaText = styled.div`
 export const Heading = styled.h2`
   color: #053146;
   margin-bottom: 0.4em;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 600;
   font-family: "poppins", sans-serif;
 
   @media screen and (max-width: 48em) {
     font-size: 1.2rem;
   }
+
+  @media screen and (max-width: 30em) {
+    font-size: 1.14rem;
+  }
 `;
 
 export const Para = styled.p`
   color: #918e9b;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   line-height: 1.3;
 
   @media screen and (max-width: 48em) {
