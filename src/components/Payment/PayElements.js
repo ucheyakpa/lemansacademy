@@ -88,10 +88,10 @@ export const Button = styled(Link)`
     rgba(5, 48, 69, 1) 66%,
     rgba(5, 48, 69, 1) 100%
   );
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: 1.5em;
   color: #fff;
-  border-radius: 1em;
+  border-radius: 0.8em;
   text-align: center;
   margin-top: 1.4em;
   font-family: "Poppins";
@@ -110,7 +110,7 @@ export const Button = styled(Link)`
 `;
 
 export const ImageWrap = styled.figure`
-  max-width: 18.5em;
+  max-width: 18em;
 
   @media screen and (max-width: 48em) {
     max-width: 17em;

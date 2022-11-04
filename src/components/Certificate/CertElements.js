@@ -1,6 +1,21 @@
 import styled from "styled-components";
 
 // Certificate section
+export const CertHeader = styled.h2`
+  margin-bottom: 0.5em;
+  color: #c7e6f8;
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+
+  @media screen and (max-width: 48em) {
+    font-size: 1.6rem;
+  }
+  
+  @media screen and (max-width: 30em) {
+    font-size: 1.4rem;
+  }
+`;
+
 export const CertWrapper = styled.div`
   background-color: #1c202f;
   display: flex;
@@ -19,7 +34,7 @@ export const CertWrapper = styled.div`
 `;
 
 export const ImageWrapper = styled.figure`
-  max-width: 40em;
+  max-width: 28em;
 `;
 
 export const CertImage = styled.img`
@@ -43,19 +58,19 @@ export const CertInfo = styled.div`
     gap: 1em;
     align-items: center;
   }
+`;
 
-  & p {
-    font-size: 1.2rem;
-    padding-bottom: 1.4em;
-    color: #fff;
-    line-height: 1.4;
+export const Para = styled.p`
+  font-size: 1.2rem;
+  padding-bottom: 1.4em;
+  color: #fff;
+  line-height: 1.4;
 
-    @media screen and (max-width: 48em) {
-      font-size: 1.1rem;
-    }
-    @media screen and (max-width: 30em) {
-      text-align: center;
-      font-size: 1rem;
-    }
+  @media screen and (max-width: 48em) {
+    font-size: 1.1rem;
+  }
+  @media screen and (max-width: 30em) {
+    text-align: center;
+    font-size: 1rem;
   }
 `;

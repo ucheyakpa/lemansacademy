@@ -18,14 +18,15 @@ export const ImageWrapper = styled.div`
 `;
 
 export const ImageContainer = styled.div`
-  width: 8em;
+  width: 6.6em;
   opacity: 0.4;
 
   @media screen and (max-width: 48em){
-    width: 7em;
+    width: 6em;
   }
+
   @media screen and (max-width: 30em){
-    width: 5em;
+    width: 4.5em;
   }
 `;
 

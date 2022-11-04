@@ -28,6 +28,7 @@ a {
 }
 
 #tutor-btn:hover {
+  transition: all 0.3s ease-in-out;
   color: #010606;
   background: #fff;
   font-weight: 700;

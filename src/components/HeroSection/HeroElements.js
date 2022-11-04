@@ -8,7 +8,7 @@ export const HeroContainer = styled.div`
   background-size: cover;
   display: flex;
   justify-content: center;
-  gap: 12em;
+  gap: 8em;
   align-items: center;
   padding: 8em 0;
   position: relative;
@@ -20,6 +20,10 @@ export const HeroContainer = styled.div`
     inset: 0;
     background-color: #12141d;
     opacity: 0.9;
+
+    @media screen and (max-width: 30em) {
+      opacity: 0.8;
+    }
   }
 
   @media screen and (max-width: 71em) {
@@ -56,7 +60,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroImageContainer = styled.div`
-  max-width: 31em;
+  max-width: 24em;
   z-index: 1;
   margin-right: 2em;
   padding-top: 3em;
@@ -101,12 +105,12 @@ export const HeroImage = styled.img`
 
 export const HeroH1 = styled.h1`
   color: #c7e6f8;
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   font-family: "Poppins", sans-serif;
   line-height: 1.2;
 
   @media screen and (max-width: 48em) {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     text-align: center;
   }
   @media screen and (max-width: 30em) {
@@ -126,7 +130,7 @@ export const HeroP = styled.p`
 
   @media screen and (max-width: 48em) {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.5;
   }
 

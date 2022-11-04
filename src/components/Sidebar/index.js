@@ -31,7 +31,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="services" onClick={toggle}>
             Services
           </SidebarLink>
-          <SidebarLink to="contact" onClick={toggle} id="tutor-btn">
+          <SidebarLink to="contact" onClick={toggle}>
             Get a Lesson Tutor
           </SidebarLink>
           <SidebarLink to="faq" onClick={toggle}>

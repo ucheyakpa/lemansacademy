@@ -1,4 +1,11 @@
-import { CertWrapper, ImageWrapper, CertImage, CertInfo } from "./CertElements";
+import {
+  CertWrapper,
+  CertHeader,
+  ImageWrapper,
+  CertImage,
+  CertInfo,
+  Para,
+} from "./CertElements";
 import { Button } from "../ButtonElements";
 import { animateScroll as scroll } from "react-scroll";
 import Cert from "../../images/certificate.png";
@@ -11,10 +18,11 @@ const Certificate = () => {
   return (
     <CertWrapper>
       <CertInfo>
-        <p>
-          Certificate of completion is issued after getting
-          a skill at Lemans Tech School. Click on get started.
-        </p>
+        <CertHeader>CERTIFICATION</CertHeader>
+        <Para>
+          Certificate of completion is issued after getting a skill at Lemans
+          Tech School. Click on get started.
+        </Para>
         <Button
           to="/start"
           primary="true"
