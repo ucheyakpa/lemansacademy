@@ -179,15 +179,6 @@ export const Button = styled.input`
   }
 `;
 
-export const Label = styled.label`
-  margin-bottom: -0.6em;
-  font-size: 1.1rem;
-
-  @media screen and (max-width: 48em) {
-    font-size: 1rem;
-  }
-`;
-
 export const Select = styled.select`
   padding-block: 0.5em;
   border: none;

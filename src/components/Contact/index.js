@@ -15,7 +15,6 @@ import {
   Input,
   TextArea,
   Button,
-  Label,
   Select,
   Option,
   Alert,
@@ -83,27 +82,26 @@ const Contact = () => {
         </InfoContainer>
 
         <FormContainer>
-          {status && renderAlert()}
           <Form onSubmit={handleSubmit}>
             <FormHeader>Get a home lesson tutor</FormHeader>
 
-            <Label id="name">Name</Label>
             <Input
               type="text"
               name="fullName"
               htmlFor="name"
               value={values.fullName}
               onChange={handleChange}
+              placeholder="Name"
               required
             />
 
-            <Label id="email">E-mail</Label>
             <Input
               type="email"
               name="email"
               htmlFor="email"
               value={values.email}
               onChange={handleChange}
+              placeholder="E-mail"
               required
             />
 
@@ -122,12 +120,12 @@ const Contact = () => {
               <Option value="Lesson & skill">Lesson & skill</Option>
             </Select>
 
-            <Label id="message">Your message here</Label>
             <TextArea
               value={values.message}
               name="message"
               htmlFor="message"
               onChange={handleChange}
+              placeholder="Your message here"
               required
             />
             {status && renderAlert()}
