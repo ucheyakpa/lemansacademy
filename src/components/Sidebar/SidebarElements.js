@@ -29,10 +29,10 @@ export const Icon = styled.div`
 
 export const CloseIcon = styled(FaTimes)`
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.2rem;
 
   @media screen and (max-width: 30em) {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
 `;
 
@@ -56,7 +56,7 @@ export const SidebarLink = styled(LinkScroll)`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-decoration: none;
   list-style: none;
   color: #fff;
@@ -74,7 +74,7 @@ export const SidebarLink = styled(LinkScroll)`
   }
 
   @media screen and (max-width: 30em) {
-    font-size: 1.26rem;
+    font-size: 1.4rem;
   }
 `;
 

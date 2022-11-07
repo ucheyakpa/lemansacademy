@@ -4,12 +4,11 @@ import LOGO from "../images/logo.png";
 import { Link } from "react-router-dom";
 
 const LogoContainer = styled.figure`
-  width: 6.9em;
-  padding: 1em 1.2em;
+  width: 4em;
   background-color: ${({ bgColor }) => (bgColor ? "transparent" : "#f9f9f9")};
 
   @media screen and (max-width: 30em) {
-    width: 5.6em;
+    width: 3em;
   }
 `;
 

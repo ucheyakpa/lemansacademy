@@ -8,7 +8,10 @@ import {
   PriceHeading,
   ActionButton,
   PayButton,
+  HomeLesson
 } from "./GetStartedElements";
+import { Link } from "react-router-dom";
+import { animateScroll as scroll } from "react-scroll";
 
 import PriceImage2 from "../../images/pricing-img-2.svg";
 import PriceImage3 from "../../images/pricing-img-3.svg";
@@ -16,10 +19,13 @@ import PriceImage4 from "../../images/pricing-img-4.svg";
 import PriceImage5 from "../../images/pricing-img-5.svg";
 
 const Pricing = () => {
- 
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <PricingContainer>
-      <PricingHeading>Pricing</PricingHeading>
+      <PricingHeading>Pricing For Online Learning</PricingHeading>
       <PricingWrapper>
         <PriceWrap>
           <BoxHeading>Starter</BoxHeading>
@@ -77,6 +83,9 @@ const Pricing = () => {
           <PayButton to="/pay">Pay</PayButton>
         </PriceWrap>
       </PricingWrapper>
+      <Link to="/tutor" onClick={toggleHome}>
+        <HomeLesson>OR book a Home Lesson Tutor</HomeLesson>
+      </Link>
     </PricingContainer>
   );
 };

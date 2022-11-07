@@ -93,6 +93,7 @@ const jumping = keyframes`
 `;
 
 export const HeroImage = styled.img`
+  background-color: #c7e6f8;
   border: 8px solid #c7e6f8;
   border-radius: 10px;
   width: 100%;
@@ -105,12 +106,12 @@ export const HeroImage = styled.img`
 
 export const HeroH1 = styled.h1`
   color: #c7e6f8;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-family: "Poppins", sans-serif;
   line-height: 1.2;
 
   @media screen and (max-width: 48em) {
-    font-size: 2.2rem;
+    font-size: 1.76rem;
     text-align: center;
   }
   @media screen and (max-width: 30em) {
@@ -122,20 +123,20 @@ export const HeroP = styled.p`
   margin-top: 0.6em;
   color: #fff;
   opacity: 0.9;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  max-width: 43.75em;
+  max-width: 26em;
   line-height: 1.4;
   letter-spacing: 1px;
 
   @media screen and (max-width: 48em) {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.06rem;
     line-height: 1.5;
   }
 
   @media screen and (max-width: 30em) {
-    font-size: 1.06rem;
+    font-size: 1rem;
   }
 `;
 
@@ -154,4 +155,23 @@ export const ArrowForword = styled(MdArrowForward)`
 export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 0.5em;
   font-size: 1.5rem;
+`;
+
+export const Image = styled.img`
+  width: 100%;
+`;
+export const TopImage = styled.div`
+  max-width: 8em;
+  margin-top: 4.2em;
+  margin-bottom: -6.6em;
+  z-index: 33;
+  display: none;
+
+  @media screen and (max-width: 48em) {
+    display: block;
+  }
+
+  @media screen and (max-width: 30em) {
+    max-width: 5.6em;
+  }
 `;

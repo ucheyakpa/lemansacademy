@@ -5,9 +5,9 @@ export const Button = styled(Link)`
   border-radius: 5px;
   background: ${({ primary }) => (primary ? "#053146" : "#010606")};
   white-space: nowrap;
-  padding: ${({ big }) => (big ? "1.1em 3em" : "1em 1.8em")};
+  padding: ${({ big }) => (big ? "1.1em 2.2em" : "1em 1.6em")};
   color: ${({ dark }) => (dark ? "#c7e6f8" : "#fff")};
-  font-size: ${({ fontbig }) => (fontbig ? "1.2rem" : "1.4rem")};
+  font-size: ${({ fontbig }) => (fontbig ? "1.16rem" : "1.2rem")};
   outline: none;
   border: none;
   cursor: pointer;
@@ -22,7 +22,7 @@ export const Button = styled(Link)`
     color: ${({ dark }) => (dark ? "#000" : "#fff")};
   }
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     font-size: 1rem;
   }
 `;
@@ -47,7 +47,7 @@ export const HomeButton = styled(Button)`
     background: #053146;
   }
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     padding-inline: 2em;
     font-size: 1.1rem;
   }

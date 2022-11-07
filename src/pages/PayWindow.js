@@ -18,12 +18,12 @@ const Container = styled.section`
 `;
 
 const PayHeader = styled.h2`
-  margin-bottom: 1.6em;
+  margin-bottom: 1.85em;
   font-size: 1.6rem;
   text-align: center;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   @media screen and (max-width: 30em) {
     font-size: 1.2rem;
@@ -70,7 +70,7 @@ const ImageContainer = styled.div`
 `;
 
 const Image = styled.img`
-  width: 11%;
+  width: 10%;
 
   @media screen and (max-width: 30em) {
     width: 9.6%
@@ -82,6 +82,7 @@ const PayStackImage = styled.img`
   flex: 1;
   cursor: pointer;
   object-fit: cover;
+  
   @media screen and (max-width: 30em) {
     max-width: 46%;
   }
@@ -165,7 +166,8 @@ const PayWindow = () => {
         </ImageContainer>
 
         <ExternalLink
-          href="https://api.whatsapp.com/send?phone=2348021468329"
+          // href="https://api.whatsapp.com/send?phone=2348021468329"
+          href="https://wa.me/message/VBBK4QNTB6W2P1"
           target="_blank"
         >
           <Image src={whatsapp} alt="WhatsApp" />

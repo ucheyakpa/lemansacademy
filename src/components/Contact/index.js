@@ -62,7 +62,7 @@ const Contact = () => {
     if (status) {
       const timer = setTimeout(() => {
         setStatus(false);
-      }, 7000);
+      }, 3500);
       return () => clearTimeout(timer);
     }
   }, [status]);

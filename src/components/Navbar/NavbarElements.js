@@ -107,7 +107,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkScroll)`
-  font-size: 1.25rem;
+  font-size: 1.16rem;
   color: #fff;
   display: flex;
   align-items: center;
@@ -142,9 +142,8 @@ export const NavBtnLink = styled(LinkRouter)`
   white-space: nowrap;
   padding: 0.8em 1.2em;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.16rem;
   font-family: "Poppins", sans-serif;
-  font-size: 1.3rem;
   outline: none;
   border: none;
   cursor: pointer;

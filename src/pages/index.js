@@ -13,6 +13,7 @@ import Contact from "../components/Contact";
 import Slider from "../components/Testimony";
 import Payment from "../components/Payment";
 import Certificate from "../components/Certificate";
+import Actions from "../components/Actions";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +32,7 @@ const Home = () => {
       <InfoSection id="about" {...homeObjOne} />
       <Services />
       <Certificate />
+      <Actions />
       <Contact />
       <Slider />
       <Questions />

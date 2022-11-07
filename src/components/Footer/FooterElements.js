@@ -54,11 +54,11 @@ export const FooterLinkItems = styled.div`
 `;
 
 export const FooterLinkTitle = styled.h1`
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 0.8em;
   color: #999;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     font-size: 0.9rem;
   }
 `;
@@ -67,10 +67,10 @@ export const FooterLink = styled(Link)`
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5em;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
   color: #999;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     font-size: 0.8rem;
   }
 
@@ -84,10 +84,10 @@ export const SocialMediaLink = styled.a`
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5em;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
   color: #999;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     font-size: 0.8rem;
   }
 
@@ -165,10 +165,10 @@ export const SocialIcons = styled.div`
 
 export const SocialIconLink = styled.a`
   color: #fff;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 
-  @media screen and (max-width: 30em) {
-    font-size: 1.3rem;
+  @media screen and (max-width: 48em) {
+    font-size: 1.4rem;
   }
 
   &:hover {

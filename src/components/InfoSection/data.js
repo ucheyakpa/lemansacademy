@@ -5,7 +5,7 @@ export const homeObjOne = {
   lightTextDesc: true,
   headline: "About Us",
   descripion: `At Lemans Academy, we take learning 
-  to kids anywhere. We cover both home lessons and 
+  to kids anywhere. We cover both home lesson and 
   digital skill acquisition online and offline`,
   buttonLabel: "Start Free Trial",
   imgStart: false,

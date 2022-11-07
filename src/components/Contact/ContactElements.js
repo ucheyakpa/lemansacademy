@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactSection = styled.section`
-  background: #c7e6f8;
+  background-color: #c7e6f8;
 `;
 
 export const ContactContainer = styled.div`
@@ -51,7 +51,7 @@ export const ImageContainer = styled.figure`
   max-width: 14em;
 
   @media screen and (max-width: 30em) {
-    max-width: 10em;
+    max-width: 8em;
   }
 `;
 
@@ -77,40 +77,37 @@ export const FormContainer = styled.div`
 
 export const FormHeader = styled.h2`
   color: #053146;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 0.2em;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.4rem;
-  }
-  @media screen and (max-width: 30em) {
-    font-size: 1.2rem;
+    font-size: 1.16rem;
   }
 `;
 
 export const ImageHead = styled(FormHeader)`
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-family: "Poppins";
   line-height: 1.2;
   padding-right: 1em;
+  max-width: 340px;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
 
   @media screen and (max-width: 30em) {
     text-align: center;
-    font-size: 1.3rem;
     margin-left: 1em;
   }
 `;
 
 export const ImageP = styled.p`
-  font-size: 1.2rem;
+  font-size: 1.14rem;
   margin-block: 0.5em;
   
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     text-align: center;
     font-size: 1rem;
     margin-block: 1em;
@@ -158,13 +155,15 @@ export const Button = styled.input`
   margin-top: 0.4em;
   cursor: pointer;
   background-color: #053146;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #fff;
   border: none;
   
+  @media screen and (max-width: 48em) {
+    font-size: 1.2rem;
+  }
   @media screen and (max-width: 30em) {
     padding: 0.7em;
-    font-size: 1.2rem;
   }
 
   &:hover {
@@ -184,7 +183,7 @@ export const Label = styled.label`
   margin-bottom: -0.6em;
   font-size: 1.1rem;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     font-size: 1rem;
   }
 `;
@@ -199,7 +198,7 @@ export const Select = styled.select`
   background: transparent;
   padding-block: 0.5em;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     font-size: 1rem;
   }
 `;
@@ -219,8 +218,10 @@ export const Alert = styled.p`
   font-size: 1.2rem;
   font-weight: bold;
   
+  @media screen and (max-width: 48em) {
+    font-size: 1rem;
+  }
   @media screen and (max-width: 30em) {
     padding-block: 0.65em;
-    font-size: 1rem;
   }
 `;

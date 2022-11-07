@@ -19,7 +19,7 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} alt="Academic Lesson" />
-          <ServicesH2>Academic Lessons</ServicesH2>
+          <ServicesH2>Academic Lesson</ServicesH2>
           <ServicesP>
             Home lesson focused on kids maths ability and general sciences.
           </ServicesP>
