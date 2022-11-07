@@ -32,7 +32,7 @@ const Actions = () => {
             <ImageContainer>
               <Image src={online} />
             </ImageContainer>
-            <Para>Chech our online learning plans</Para>
+            <Para>Check our online learning plans</Para>
             <Link to="/start" onClick={toggleHome}>
               <LinkRoute>Buy Online Plan</LinkRoute>
             </Link>
