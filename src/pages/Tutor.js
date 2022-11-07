@@ -78,7 +78,7 @@ const HeaderText = styled(Link)`
 `;
 
 const HeroText = styled.div`
-  max-width: 700px;
+  max-width: 650px;
   margin: auto;
   padding: 4.5em;
   color: #fff;
@@ -98,6 +98,10 @@ const Header = styled.h1`
   @media screen and (max-width: 48em) {
     font-size: 1.4rem;
   }
+  
+  @media screen and (max-width: 30em) {
+    font-size: 1.2rem;
+  }
 `;
 
 const Para = styled.p`
@@ -108,6 +112,9 @@ const Para = styled.p`
 
   @media screen and (max-width: 48em) {
     font-size: 0.96rem;
+  }
+  @media screen and (max-width: 30em) {
+    font-size: 0.9rem;
   }
 `;
 
@@ -143,8 +150,8 @@ const Tutor = () => {
 
           <Para>
             If your kid can't learn online, never worry, We got you covered,
-            Request for a home lesson Tutor by sending us a message or clicking
-            on the chat image.
+            Request for a home lesson Tutor. Send us a message or click
+            the chat image.
           </Para>
         </HeroText>
       </HeroContainer>
