@@ -162,7 +162,7 @@ export const Image = styled.img`
 `;
 export const TopImage = styled.div`
   max-width: 8em;
-  margin-top: 4.2em;
+  margin-top: 3.6em;
   margin-bottom: -6.6em;
   z-index: 33;
   display: none;

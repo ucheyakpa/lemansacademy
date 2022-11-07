@@ -9,6 +9,7 @@ import {
   SidebarMenu,
   SidebarRoute,
   SidebarLink,
+  SidebarTutor
 } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -31,9 +32,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink to="services" onClick={toggle}>
             Services
           </SidebarLink>
-          <SidebarLink to="contact" onClick={toggle}>
+          <SidebarTutor to="/tutor" onClick={toggle && toggleHome}>
             Get a Lesson Tutor
-          </SidebarLink>
+          </SidebarTutor>
           <SidebarLink to="faq" onClick={toggle}>
             FAQ
           </SidebarLink>

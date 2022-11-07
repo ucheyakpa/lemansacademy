@@ -61,17 +61,29 @@ export const SidebarLink = styled(LinkScroll)`
   list-style: none;
   color: #fff;
 
-  &:nth-child(3) {
-    background: linear-gradient(
-      148deg,
-      rgba(45, 98, 122, 1) 6%,
-      rgba(14, 70, 97, 1) 34%,
-      rgba(5, 48, 69, 1) 66%,
-      rgba(5, 48, 69, 1) 100%
-    );
-    border-radius: 2px;
-    transition: all 0.3s ease-in-out;
+  @media screen and (max-width: 30em) {
+    font-size: 1.4rem;
   }
+`;
+
+export const SidebarTutor = styled(LinkRouter)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+
+  background: linear-gradient(
+    148deg,
+    rgba(45, 98, 122, 1) 6%,
+    rgba(14, 70, 97, 1) 34%,
+    rgba(5, 48, 69, 1) 66%,
+    rgba(5, 48, 69, 1) 100%
+  );
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
 
   @media screen and (max-width: 30em) {
     font-size: 1.4rem;
