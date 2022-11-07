@@ -34,13 +34,16 @@ export const Header = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1.4em 1em;
 `;
+
+export const LogoContainer = styled.div``;
 
 export const LemansHeader = styled.h1`
   padding-right: 1em;
   font-size: 1.4rem;
   font-family: "Poppins";
-  font-weight: 500;
+  font-weight: 600;
   color: #053146;
   background-repeat: no-repeat;
   line-height: 1.2;
@@ -92,7 +95,7 @@ export const Para = styled.p`
 export const Image = styled.img`
   max-width: 15%;
   position: absolute;
-  top: 3em;
+  top: 3.4em;
   right: 2.5em;
 
   @media screen and (max-width: 48em) {
@@ -130,22 +133,24 @@ export const PricingContainer = styled.section`
 `;
 
 export const PricingHeading = styled.h1`
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   background: #053146;
   padding: 0.8em;
   border-radius: 5px;
   color: #fff;
   font-family: "Poppins";
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
-  max-width: 240px;
-  margin: 2.5em auto;
+  max-width: 380px;
+  margin: 3em auto;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.2rem;
+    max-width: 300px;
+    font-size: 1.1rem;
   }
 
   @media screen and (max-width: 30em) {
+    max-width: 260px;
     font-size: 1rem;
   }
 `;
@@ -156,7 +161,7 @@ export const PricingWrapper = styled.div`
   justify-content: center;
   gap: 2em;
   padding-top: 1em;
-  padding-bottom: 10em;
+  /* padding-bottom: 10em; */
   padding-inline: 10em;
 
   @media screen and (max-width: 79em) {
@@ -191,7 +196,7 @@ export const PriceWrap = styled.div`
     margin-bottom: 2.5em;
   }
   & li {
-    font-size: 1.2rem;
+    font-size: 1.14rem;
     color: #1c202f;
   }
 
@@ -221,17 +226,13 @@ export const PriceImage = styled(Image)`
 
 export const BoxHeading = styled.h2`
   font-weight: 700;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #053146;
   text-align: center;
   line-height: 1.5;
 
-  @media screen and (max-width: 48em) {
-    font-size: 1.4rem;
-  }
-
   @media screen and (max-width: 30em) {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 `;
 
@@ -295,5 +296,13 @@ export const PayButton = styled(Link)`
     color: #1a1b21;
     background: #fff;
     transition: all 200ms ease-in-out;
+  }
+`;
+
+export const HomeLesson = styled(PricingHeading)`
+  background-color: #191e2e;
+
+  &:hover {
+    background-color: #12141d;
   }
 `;

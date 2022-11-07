@@ -21,7 +21,7 @@ const data = [
   },
   {
     question: "How can I make payment?",
-    answer: `Very easy, click on the "Buy a Plan" button!!`,
+    answer: `Very easy, click on the "Buy a Plan" button`,
   },
 ];
 

@@ -7,27 +7,20 @@ export const QuestionsContainer = styled.section`
   padding-bottom: 3.5em;
   background-image: url(${FAQ});
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 24%;
   background-position: right;
   background-origin: content-box;
-
-  @media screen and (max-width: 48em) {
-    background-image: none;
-  }
 `;
 
 export const MainHeading = styled.h1`
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: center;
   padding: 1em;
   font-family: "Poppins", sans-serif;
   color: #053146;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.8rem;
-  }
-  @media screen and (max-width: 30em) {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 `;
 
@@ -72,15 +65,11 @@ export const QuestionHeader = styled.div`
 `;
 
 export const Question = styled.h2`
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #dcdce1;
   line-height: 1.3;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.2rem;
-  }
-
-  @media screen and (max-width: 30em) {
     font-size: 1rem;
   }
 `;
@@ -100,14 +89,10 @@ export const ArrowAnchorFoward = styled(IoIosArrowForward)`
 export const Answer = styled.p`
   border: 4px solid #c7e6f8;
   padding: 0.7em;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.3;
   color: #dcdce1;
   margin-bottom: 0.8em;
   display: ${({ selected }) => (selected ? "block" : "none")};
   transition: all 400ms cubic-bezier(0.42, 0, 0.58, 1);
-
-  @media screen and (max-width: 30em) {
-    font-size: 1rem;
-  }
 `;

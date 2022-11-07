@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "../ButtonElements";
 import heroImg from "../../images/learning-child.jpg";
+import teacher from "../../images/home-tutor.png";
 import {
   HeroContainer,
   HeroContent,
@@ -11,6 +12,8 @@ import {
   HeroBtnWrapper,
   ArrowForword,
   ArrowRight,
+  TopImage,
+  Image
 } from "./HeroElements";
 
 const HeroSection = () => {
@@ -22,6 +25,9 @@ const HeroSection = () => {
 
   return (
     <HeroContainer id="home">
+      <TopImage>
+        <Image src={teacher} />
+      </TopImage>
       <HeroContent>
         <HeroH1>Learn, Skillup & Grow</HeroH1>
         <HeroP>

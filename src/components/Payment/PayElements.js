@@ -41,7 +41,7 @@ export const PaymentWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 4em;
+  gap: 1em;
   padding-block: 5em;
   padding-inline: 5em;
 
@@ -71,11 +71,11 @@ export const Para = styled.p`
   color: #053146;
   text-align: center;
   padding-inline: 1.2em;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 600;
   max-width: 500px;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     font-size: 1.1rem;
   }
 `;
@@ -88,8 +88,8 @@ export const Button = styled(Link)`
     rgba(5, 48, 69, 1) 66%,
     rgba(5, 48, 69, 1) 100%
   );
-  font-size: 1.2rem;
-  padding: 1.5em;
+  font-size: 1.1rem;
+  padding: 1.5em 2.4em;
   color: #fff;
   border-radius: 0.8em;
   text-align: center;
@@ -110,7 +110,7 @@ export const Button = styled(Link)`
 `;
 
 export const ImageWrap = styled.figure`
-  max-width: 18em;
+  max-width: 20em;
 
   @media screen and (max-width: 48em) {
     max-width: 17em;
@@ -123,5 +123,9 @@ export const ImageWrap = styled.figure`
 
 export const Image = styled.img`
   max-width: 100%;
-  border-radius: 1.5em;
 `;
+
+export const Span = styled.span`
+  font-weight: 900;
+  color: #c61902;
+`

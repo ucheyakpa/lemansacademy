@@ -6,9 +6,11 @@ import {
   Button,
   ImageWrap,
   Image,
+  Span,
 } from "./PayElements";
-import Learning from "../../images/learning.png";
+import Learning from "../../images/onlineSkool.png";
 import { animateScroll as scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Payment = () => {
   const toggleHome = () => {
@@ -23,10 +25,16 @@ const Payment = () => {
         </ImageWrap>
         <PaymentWrap>
           <Para>
-            Start Learning now, to enjoy premium 
-            benefits exclusive for kids.
+            Enjoy premium benefits exclusive for kids.
+            Buy an online plan or{" "}
+            <Link to="/tutor" onClick={toggleHome}>
+              <Span>Request for a Home Lesson Tutor</Span>
+            </Link>{" "}
+            for offline classes
           </Para>
-          <Button to="/start" onClick={toggleHome}>BUY A PLAN NOW</Button>
+          <Button to="/start" onClick={toggleHome}>
+            BUY A PLAN NOW
+          </Button>
         </PaymentWrap>
       </PaymentWrapper>
     </PaymentContainer>

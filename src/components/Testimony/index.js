@@ -42,7 +42,7 @@ const Slider = () => {
     <SliderContainer>
       <HeaderText>
         <Header>TESTIMONIALS</Header>
-        <SubHeader>What parents are saying about us!!</SubHeader>
+        <SubHeader>What parents are saying about us</SubHeader>
       </HeaderText>
       {people.map((item, peopleIndex) => {
         const { id, image, name, quote } = item;
@@ -62,7 +62,7 @@ const Slider = () => {
             <LeftQuote />
             <RightQuote />
             <ImageContainer>
-              <Image src={image} alt="TESTIMONIAL-IMAGES" />
+              <Image src={image} alt="IMG" />
             </ImageContainer>
             <Info>
               <Message>{quote}</Message>

@@ -17,6 +17,9 @@ const Certificate = () => {
 
   return (
     <CertWrapper>
+      <ImageWrapper>
+        <CertImage src={Cert} alt="CERTIFICATE" />
+      </ImageWrapper>
       <CertInfo>
         <CertHeader>CERTIFICATION</CertHeader>
         <Para>
@@ -34,9 +37,6 @@ const Certificate = () => {
           Get Started
         </Button>
       </CertInfo>
-      <ImageWrapper>
-        <CertImage src={Cert} alt="CERTIFICATE" />
-      </ImageWrapper>
     </CertWrapper>
   );
 };

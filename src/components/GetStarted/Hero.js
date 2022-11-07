@@ -9,13 +9,16 @@ import {
   Rounded,
   Header,
   LemansHeader,
+  LogoContainer
 } from "./GetStartedElements";
 
 const Hero = () => {
   return (
     <HeroContainer>
       <Header>
-        <Logo bgColor="true" />
+        <LogoContainer>
+          <Logo bgColor="true" />
+        </LogoContainer>
         <LemansHeader>Lemans Academy</LemansHeader>
       </Header>
       <Info>
