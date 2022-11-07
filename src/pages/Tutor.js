@@ -35,7 +35,7 @@ const HeroWrapper = styled.div`
   padding: 1em 3em;
 
   @media screen and (max-width: 48em) {
-    padding: 1em;
+    padding: 1em 1.4em;
   }
 `;
 
