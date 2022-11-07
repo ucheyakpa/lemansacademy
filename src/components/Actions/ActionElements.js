@@ -40,15 +40,15 @@ export const ActionHeader = styled.h2`
   font-family: "Lobster", cursive;
   font-size: 1.7rem;
   font-weight: 500;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.1px;
   color: #053146;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   
   @media screen and (max-width: 30em) {
-    font-size: 1.3rem;
+    font-size: 1.48rem;
     max-width: 240px;
   }
 `;

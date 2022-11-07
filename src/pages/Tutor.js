@@ -151,9 +151,10 @@ const Tutor = () => {
           <Header>Get a Home Lesson Teacher</Header>
 
           <Para>
-            If your kid can't learn online, don't worry, 
-            Request for a home lesson Tutor. Send us a 
-            message or click the chat image
+            If you don't want Online classes, Request 
+            for a home lesson Tutor. Send us a 
+            message by filling the form below or 
+            click the chat us button
           </Para>
         </HeroText>
       </HeroContainer>

@@ -19,10 +19,6 @@ const data = [
     answer: `Yes, academic lesson during weekdays, while the 
     weekend is for your tech skill acqusition`,
   },
-  {
-    question: "How can I make payment?",
-    answer: `Very easy, click on the "Buy a Plan" button`,
-  },
 ];
 
 export default data;
