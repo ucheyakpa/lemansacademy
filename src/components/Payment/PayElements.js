@@ -71,12 +71,13 @@ export const Para = styled.p`
   color: #053146;
   text-align: center;
   padding-inline: 1.2em;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  max-width: 500px;
+  max-width: 400px;
+  line-height: 1.5;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 `;
 
@@ -126,6 +127,5 @@ export const Image = styled.img`
 `;
 
 export const Span = styled.span`
-  font-weight: 900;
-  color: #c61902;
+  color: #DB4355;
 `

@@ -27,9 +27,9 @@ const Payment = () => {
           <Para>
             Buy an online plan with all benefits OR{" "} 
             <Link to="/tutor" onClick={toggleHome}>
-              <Span>Request for a Home Lesson Tutor</Span>
+              <Span>Get a Home Lesson Tutor</Span>
             </Link>{" "}
-            for offline classes.
+            for offline classes
           </Para>
           <Button to="/start" onClick={toggleHome}>
             BUY A PLAN NOW

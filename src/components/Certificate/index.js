@@ -23,8 +23,8 @@ const Certificate = () => {
       <CertInfo>
         <CertHeader>CERTIFICATION</CertHeader>
         <Para>
-          Certificate of completion is issued after getting a skill at Lemans
-          Tech School. Click on get started.
+          Certificate is issued after completing a tech skill 
+          on our platform. Click on get started
         </Para>
         <Button
           to="/start"

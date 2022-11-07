@@ -38,13 +38,13 @@ export const ActionHeader = styled.h2`
   margin-bottom: 1.6em;
   text-align: center;
   font-family: "Lobster", cursive;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 500;
-  letter-spacing: 1.6px;
+  letter-spacing: 1.2px;
   color: #053146;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.68rem;
+    font-size: 1.4rem;
   }
 `;
 

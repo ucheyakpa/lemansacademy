@@ -26,7 +26,9 @@ const Actions = () => {
   return (
     <ActionContainer>
       <AllActions>
-        <ActionHeader>Every child's need is covered</ActionHeader>
+        <ActionHeader>
+          Every child's learning need is assured
+        </ActionHeader>
         <ActionWrapper>
           <OnlineActions>
             <ImageContainer>
