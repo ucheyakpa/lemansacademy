@@ -115,7 +115,7 @@ const Para = styled.p`
   }
   
   @media screen and (max-width: 30em) {
-    font-size: 0.96rem;
+    font-size: 0.9rem;
   }
 `;
 

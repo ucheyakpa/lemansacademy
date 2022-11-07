@@ -46,6 +46,11 @@ export const ActionHeader = styled.h2`
   @media screen and (max-width: 48em) {
     font-size: 1.4rem;
   }
+  
+  @media screen and (max-width: 30em) {
+    font-size: 1.3rem;
+    max-width: 240px;
+  }
 `;
 
 export const OnlineActions = styled.div`

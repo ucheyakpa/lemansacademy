@@ -84,7 +84,7 @@ const Pricing = () => {
         </PriceWrap>
       </PricingWrapper>
       <Link to="/tutor" onClick={toggleHome}>
-        <HomeLesson>OR book a Home Lesson Tutor</HomeLesson>
+        <HomeLesson>OR get a home lesson tutor</HomeLesson>
       </Link>
     </PricingContainer>
   );
