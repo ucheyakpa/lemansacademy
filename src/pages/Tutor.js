@@ -8,7 +8,7 @@ import student from "../images/Student-one.jpeg";
 import book from "../images/books.png";
 
 const HeroContainer = styled.section`
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)),
     url(${student});
   background-repeat: no-repeat;
   background-position: center;
@@ -32,10 +32,10 @@ const HeroWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2em 3em;
+  padding: 1em 3em;
 
   @media screen and (max-width: 48em) {
-    padding: 2em 1em;
+    padding: 1em;
   }
 `;
 
@@ -72,7 +72,7 @@ const HeaderText = styled(Link)`
   }
 
   @media screen and (max-width: 48em) {
-    padding: 0.6em 1.2em;
+    padding: 0.6em 1em;
     font-size: 1rem;
   }
 `;
@@ -93,14 +93,14 @@ const HeroText = styled.div`
 const Header = styled.h1`
   text-align: center;
   color: #c7e6f8;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   
   @media screen and (max-width: 30em) {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 `;
 
@@ -111,18 +111,20 @@ const Para = styled.p`
   line-height: 1.5;
 
   @media screen and (max-width: 48em) {
-    font-size: 0.96rem;
+    font-size: 1rem;
   }
+  
   @media screen and (max-width: 30em) {
-    font-size: 0.9rem;
+    font-size: 0.96rem;
   }
 `;
 
 const ImageWrap = styled.div`
   max-width: 100px;
+  margin-bottom: 1em;
 
   @media screen and (max-width: 48em) {
-    max-width: 80px;
+    max-width: 90px;
   }
 `;
 
@@ -149,9 +151,9 @@ const Tutor = () => {
           <Header>Get a Home Lesson Teacher</Header>
 
           <Para>
-            If your kid can't learn online, never worry, We got you covered,
-            Request for a home lesson Tutor. Send us a message or click
-            the chat image.
+            If your kid can't learn online, don't worry, 
+            Request for a home lesson Tutor. Send us a 
+            message or click the chat image
           </Para>
         </HeroText>
       </HeroContainer>
