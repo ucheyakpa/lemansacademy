@@ -17,23 +17,23 @@ const Business = () => {
     <BusinessContainer>
       <ImageWrapper>
         <ImageContainer>
-          <BusinessImage src={NewYorkTimes} alt='New York Times' />
+          <BusinessImage loading="lazy" src={NewYorkTimes} alt='New York Times' />
         </ImageContainer>
 
         <ImageContainer>
-          <BusinessImage src={Atlantic} alt='atlantic' />
+          <BusinessImage loading="lazy" src={Atlantic} alt='atlantic' />
         </ImageContainer>
 
         <ImageContainer>
-          <BusinessImage src={BusinessInsider} alt='businessInsider' />
+          <BusinessImage loading="lazy" src={BusinessInsider} alt='businessInsider' />
         </ImageContainer>
 
         <ImageContainer>
-          <BusinessImage src={Wired} alt='Wired' />
+          <BusinessImage loading="lazy" src={Wired} alt='Wired' />
         </ImageContainer>
 
         <ImageContainer>
-          <BusinessImage src={Slack} alt='Slack' />
+          <BusinessImage loading="lazy" src={Slack} alt='Slack' />
         </ImageContainer>
       </ImageWrapper>
     </BusinessContainer>

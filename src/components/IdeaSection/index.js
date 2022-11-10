@@ -82,7 +82,7 @@ const Idea = () => {
       <IdeaWrapper>
         <IdeaContent>
           <IdeaImage>
-            <Image src={GraphicImage} alt="GRAPHICS" />
+            <Image loading="lazy" src={GraphicImage} alt="GRAPHICS" />
           </IdeaImage>
           <IdeaText>
             <Heading>Master the topics</Heading>
@@ -95,7 +95,7 @@ const Idea = () => {
 
         <IdeaContent>
           <IdeaImage>
-            <Image src={Devices} alt="DEVICES" />
+            <Image loading="lazy" src={Devices} alt="DEVICES" />
           </IdeaImage>
           <IdeaText>
             <Heading>Learn from any Device</Heading>
@@ -107,7 +107,7 @@ const Idea = () => {
 
         <IdeaContent>
           <IdeaImage>
-            <Image src={Tutor} alt="TUTOR" />
+            <Image loading="lazy" src={Tutor} alt="TUTOR" />
           </IdeaImage>
           <IdeaText>
             <Heading>We have Professional Tutors</Heading>
@@ -119,7 +119,7 @@ const Idea = () => {
 
         <IdeaContent>
           <IdeaImage>
-            <Image src={Access} alt="ACCESS" />
+            <Image loading="lazy" src={Access} alt="ACCESS" />
           </IdeaImage>
           <IdeaText>
             <Heading>Get Unlimited Access</Heading>

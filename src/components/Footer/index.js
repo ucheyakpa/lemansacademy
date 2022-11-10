@@ -97,7 +97,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrapper>
             <SocialLogo to="/" onClick={toggleHome}>
-              <SocialLogoImage src={Logo} alt="LOGO" />
+              <SocialLogoImage loading="lazy" src={Logo} alt="LOGO" />
             </SocialLogo>
             <WebsiteRight>
               Lemans Academy Ⓒ {new Date().getFullYear()} All rights reserved.

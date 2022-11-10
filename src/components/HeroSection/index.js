@@ -26,7 +26,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <TopImage>
-        <Image src={teacher} />
+        <Image color="red" width="100px" height="100px" src={teacher} />
       </TopImage>
       <HeroContent>
         <HeroH1>Learn, Skillup & Grow</HeroH1>
@@ -47,7 +47,7 @@ const HeroSection = () => {
         </HeroBtnWrapper>
       </HeroContent>
       <HeroImageContainer>
-        <HeroImage src={heroImg} alt="IMAGE" />
+        <HeroImage width="330px" height="330px" src={heroImg} />
       </HeroImageContainer>
     </HeroContainer>
   );

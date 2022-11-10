@@ -60,7 +60,7 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroImageContainer = styled.div`
-  max-width: 24em;
+  max-width: 20.5em;
   z-index: 1;
   margin-right: 2em;
   padding-top: 3em;
@@ -96,7 +96,8 @@ export const HeroImage = styled.img`
   background-color: #c7e6f8;
   border: 8px solid #c7e6f8;
   border-radius: 10px;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   animation: ${jumping} linear 2s infinite;
 
   @media screen and (max-width: 30em) {
@@ -159,6 +160,7 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 
 export const Image = styled.img`
   width: 100%;
+  height: auto;
 `;
 export const TopImage = styled.div`
   max-width: 8em;

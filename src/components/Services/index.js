@@ -18,7 +18,7 @@ const Services = () => {
       <ServicesH1>Our Services</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={Icon1} alt="Academic Lesson" />
+          <ServicesIcon loading="lazy" src={Icon1} alt="Academic Lesson" />
           <ServicesH2>Academic Lesson</ServicesH2>
           <ServicesP>
             Home lesson focused on kids maths ability and general sciences.
@@ -27,7 +27,7 @@ const Services = () => {
         </ServicesCard>
 
         <ServicesCard>
-          <ServicesIcon src={Icon2} alt="Digital Skill" />
+          <ServicesIcon loading="lazy" src={Icon2} alt="Digital Skill" />
           <ServicesH2>Skill Aquisition</ServicesH2>
           <ServicesP>
             Enroll into our tech school for coding, web or grahics design
@@ -37,7 +37,7 @@ const Services = () => {
         </ServicesCard>
 
         <ServicesCard>
-          <ServicesIcon src={Icon3} alt="Mentoring" />
+          <ServicesIcon loading="lazy" src={Icon3} alt="Mentoring" />
           <ServicesH2>Mentoring</ServicesH2>
           <ServicesP>
             We guide and mentor kids in order to get the best out of them.
