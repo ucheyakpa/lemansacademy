@@ -75,7 +75,7 @@ const Contact = () => {
       <ContactContainer id="contact">
         <InfoContainer>
           <ImageContainer>
-            <Image src={ContactImage} alt="CONTACT" />
+            <Image loading="lazy" src={ContactImage} alt="CONTACT" />
           </ImageContainer>
           <ImageP>Contact Us</ImageP>
           <ImageHead>Let's talk about your Learning</ImageHead>

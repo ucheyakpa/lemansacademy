@@ -5,10 +5,10 @@ export const CertHeader = styled.h2`
   margin-bottom: 0.5em;
   color: #c7e6f8;
   font-size: 1.8rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.6rem;
+    font-size: 1.52rem;
   }
 `;
 

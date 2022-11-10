@@ -32,7 +32,7 @@ const Actions = () => {
         <ActionWrapper>
           <OnlineActions>
             <ImageContainer>
-              <Image src={online} />
+              <Image loading="lazy" src={online} />
             </ImageContainer>
             <Para>Check our online learning plans</Para>
             <Link to="/start" onClick={toggleHome}>
@@ -42,7 +42,7 @@ const Actions = () => {
 
           <OfflineActions>
             <ImageContainer>
-              <Image src={home} />
+              <Image loading="lazy" src={home} />
             </ImageContainer>
             <Para>For physical classes</Para>
             <Link to="/tutor" onClick={toggleHome}>
@@ -53,7 +53,7 @@ const Actions = () => {
       </AllActions>
 
       <ActionImageContainer>
-        <ActionImage src={action} />
+        <ActionImage loading="lazy" src={action} />
       </ActionImageContainer>
     </ActionContainer>
   );

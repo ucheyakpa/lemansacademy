@@ -18,7 +18,7 @@ const Certificate = () => {
   return (
     <CertWrapper>
       <ImageWrapper>
-        <CertImage src={Cert} alt="CERTIFICATE" />
+        <CertImage loading="lazy" src={Cert} alt="CERTIFICATE" />
       </ImageWrapper>
       <CertInfo>
         <CertHeader>CERTIFICATION</CertHeader>

@@ -21,7 +21,7 @@ const Payment = () => {
     <PaymentContainer id="pay">
       <PaymentWrapper>
         <ImageWrap>
-          <Image src={Learning} alt="LearningImage" />
+          <Image loading="lazy" src={Learning} alt="LearningImage" />
         </ImageWrap>
         <PaymentWrap>
           <Para>

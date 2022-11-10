@@ -38,7 +38,7 @@ export const ActionHeader = styled.h2`
   margin-bottom: 1.6em;
   text-align: center;
   font-family: "Lobster", cursive;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 1.1px;
   color: #053146;

@@ -48,9 +48,9 @@ export const InfoContainer = styled.div`
 `;
 
 export const ImageContainer = styled.figure`
-  max-width: 14em;
+  max-width: 12.6em;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     max-width: 8em;
   }
 `;

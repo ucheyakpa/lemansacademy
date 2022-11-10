@@ -58,17 +58,13 @@ export const Heading = styled.h1`
   @media screen and (max-width: 48em) {
     font-size: 1.6rem;
   }
-
-  @media screen and (max-width: 30em) {
-    font-size: 1.4rem;
-    line-height: 1.2;
-  }
 `;
 
 export const Text = styled.p`
   margin-bottom: 1.5em;
   font-size: 1.1rem;
   line-height: 1.4em;
+  max-width: 420px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
   
   @media screen and (max-width: 48em) {

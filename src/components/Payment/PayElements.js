@@ -1,40 +1,8 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { Link } from "react-router-dom";
-import Money from "../../images/money.png";
-
-const positions = keyframes`
-  0%{
-    background-position: bottom left;
-  }
-  25%{
-    background-position: top center;
-  }
-  50%{
-    background-position: bottom right;
-  }
-  75%{
-    background-position: top center;
-  }
-  100%{
-    background-position: bottom left;
-  }
-`;
 
 export const PaymentContainer = styled.section`
   background-color: #c7e6f8;
-  background-image: url(${Money});
-  background-repeat: no-repeat;
-  background-size: 15%;
-  background-position: bottom left;
-  background-origin: content-box;
-  animation: ${positions} 20s infinite;
-
-  @media screen and (max-width: 48em) {
-    background-size: 20%;
-  }
-  @media screen and (max-width: 30em) {
-    background-size: 30%;
-  }
 `;
 
 export const PaymentWrapper = styled.div`

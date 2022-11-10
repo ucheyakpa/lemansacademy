@@ -43,7 +43,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollnav={scrollNav} onScroll={changeNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome} scrollnav={scrollNav}>
-              <LogoImage src={scrollNav ? logoTwo : logo} alt="LOGO" />
+              <LogoImage loading="lazy" src={scrollNav ? logoTwo : logo} alt="LOGO" />
             </NavLogo>
 
             <MobileIcon onClick={toggle}>

@@ -20,7 +20,7 @@ export const MainHeading = styled.h1`
   color: #053146;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.6rem;
+    font-size: 1.46rem;
   }
 `;
 

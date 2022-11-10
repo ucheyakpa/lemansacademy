@@ -161,7 +161,6 @@ export const PricingWrapper = styled.div`
   justify-content: center;
   gap: 2em;
   padding-top: 1em;
-  /* padding-bottom: 10em; */
   padding-inline: 10em;
 
   @media screen and (max-width: 79em) {
@@ -176,7 +175,7 @@ export const PricingWrapper = styled.div`
 
 export const PriceWrap = styled.div`
   background-color: #c7e6f8;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -194,23 +193,25 @@ export const PriceWrap = styled.div`
     list-style-type: square;
     list-style-position: inside;
     margin-bottom: 2.5em;
-  }
-  & li {
-    font-size: 1.14rem;
-    color: #1c202f;
-  }
+    transform: translateX(2%);
 
-  @media screen and (max-width: 30em) {
-    & li {
-      font-size: 1rem;
+    @media screen and (max-width: 48em) {
+      transform: translateX(5%);
     }
   }
-  @media screen and (max-width: 24.4em) {
-    max-width: 300px;
-    margin: auto;
+
+  & li {
+    font-size: 1.1rem;
+    color: #1c202f;
+    line-height: 1.5;
+    list-style-type: disc;
+    list-style-position: outside;
   }
-  @media screen and (max-width: 20em) {
-    max-width: 250px;
+
+  @media screen and (max-width: 48em) {
+    & li {
+      font-size: 1.02rem;
+    }
   }
 `;
 
@@ -231,8 +232,8 @@ export const BoxHeading = styled.h2`
   text-align: center;
   line-height: 1.5;
 
-  @media screen and (max-width: 30em) {
-    font-size: 1.2rem;
+  @media screen and (max-width: 48em) {
+    font-size: 1.28rem;
   }
 `;
 
@@ -258,7 +259,7 @@ export const ActionButton = styled.a`
   color: #fff;
   letter-spacing: 1.2px;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     padding-inline: 2em;
     font-size: 1rem;
   }

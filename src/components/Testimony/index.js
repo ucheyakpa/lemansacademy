@@ -62,7 +62,7 @@ const Slider = () => {
             <LeftQuote />
             <RightQuote />
             <ImageContainer>
-              <Image src={image} alt="IMG" />
+              <Image loading="lazy" src={image} alt="IMG" />
             </ImageContainer>
             <Info>
               <Message>{quote}</Message>
