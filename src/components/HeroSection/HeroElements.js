@@ -60,7 +60,6 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroImageContainer = styled.div`
-  /* max-width: 20.5em; */
   z-index: 1;
   margin-right: 2em;
   padding-top: 3em;

@@ -19,8 +19,8 @@ export const SidebarContainer = styled.aside`
 
 export const Icon = styled.div`
   position: absolute;
-  top: .6em;
-  right: .68em;
+  top: 0.6em;
+  right: 0.8em;
   background: transparent;
   font-size: 1.6rem;
   cursor: pointer;
@@ -39,7 +39,7 @@ export const CloseIcon = styled(FaTimes)`
 export const SidebarWrapper = styled.div`
   color: #fff;
   margin-top: 4em;
-  
+
   @media screen and (max-width: 30em) {
     margin-top: 2em;
   }
@@ -48,12 +48,12 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 5em);
+  grid-template-rows: repeat(6, 4em);
   text-align: center;
   gap: 0.5em;
 
   @media screen and (max-width: 30em) {
-    grid-template-rows: repeat(6, 3.75em);
+    grid-template-rows: repeat(6, 3.2em);
   }
 `;
 
@@ -120,10 +120,10 @@ export const SidebarRoute = styled(LinkRouter)`
 export const Logo = styled.div`
   max-width: 10em;
   position: absolute;
-  top: .45em;
-  left: .45em;
-`
+  top: 0.4em;
+  left: 0.4em;
+`;
 
 export const Image = styled.img`
   width: 100%;
-`
+`;

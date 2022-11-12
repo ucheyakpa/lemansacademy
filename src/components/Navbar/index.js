@@ -8,6 +8,7 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  NavLinksRoute,
   NavBtn,
   NavBtnLink,
 } from "./NavbarElements";
@@ -78,18 +79,19 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks
-                  to="contact"
+                <NavLinksRoute
+                  to="/tutor"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-90}
                   scrollnav={scrollNav}
+                  onClick={toggleHome}
                   id="tutor-btn"
                 >
                   Get a Lesson Tutor
-                </NavLinks>
+                </NavLinksRoute>
               </NavItem>
               <NavItem>
                 <NavLinks

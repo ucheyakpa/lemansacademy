@@ -9,7 +9,6 @@ import InfoSection from "../components/InfoSection";
 import Idea from "../components/IdeaSection";
 import Services from "../components/Services";
 import Questions from "../components/Questions";
-import Contact from "../components/Contact";
 import Slider from "../components/Testimony";
 import Payment from "../components/Payment";
 import Certificate from "../components/Certificate";
@@ -33,7 +32,6 @@ const Home = () => {
       <Services />
       <Certificate />
       <Actions />
-      <Contact />
       <Slider />
       <Questions />
       <Payment />
