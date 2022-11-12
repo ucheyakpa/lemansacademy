@@ -121,6 +121,21 @@ export const NavLinks = styled(LinkScroll)`
   }
 `;
 
+export const NavLinksRoute = styled(LinkRouter)`
+  font-size: 1.16rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+
+  &:hover {
+    color: #c7e6f8;
+  }
+`;
+
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
