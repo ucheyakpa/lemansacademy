@@ -47,7 +47,7 @@ const HeroSection = () => {
         </HeroBtnWrapper>
       </HeroContent>
       <HeroImageContainer>
-        <HeroImage width="330px" height="330px" src={heroImg} />
+        <HeroImage width="360px" height="360px" src={heroImg} />
       </HeroImageContainer>
     </HeroContainer>
   );
