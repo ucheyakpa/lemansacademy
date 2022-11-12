@@ -84,6 +84,7 @@ export const FormHeader = styled.h2`
   margin-bottom: 0.2em;
   font-family: "Lobster", cursive;
   letter-spacing: 1.2px;
+  text-align: center;
 
   @media screen and (max-width: 48em) {
     font-size: 1.2rem;
