@@ -36,10 +36,8 @@ export const ContactContainer = styled.div`
 export const InfoContainer = styled.div`
   flex: 1;
 
-  @media screen and (max-width: 30em) {
+  @media screen and (max-width: 48em) {
     padding: 0.6em;
-  }
-  @media screen and (max-width: 30em) {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,10 +46,10 @@ export const InfoContainer = styled.div`
 `;
 
 export const ImageContainer = styled.figure`
-  max-width: 12.6em;
+  max-width: 12em;
 
   @media screen and (max-width: 48em) {
-    max-width: 8em;
+    max-width: 7.6em;
   }
 `;
 
@@ -69,8 +67,12 @@ export const FormContainer = styled.div`
   z-index: 1;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 5px;
 
   @media screen and (max-width: 48em) {
+    width: 75%;
+  }
+  @media screen and (max-width: 30em) {
     width: 100%;
   }
 `;
@@ -78,26 +80,27 @@ export const FormContainer = styled.div`
 export const FormHeader = styled.h2`
   color: #053146;
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 0.2em;
+  font-family: "Lobster", cursive;
+  letter-spacing: 1.2px;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.16rem;
+    font-size: 1.2rem;
   }
 `;
 
-export const ImageHead = styled(FormHeader)`
-  font-size: 1.6rem;
-  font-family: "Poppins";
+export const ImageHead = styled.h2`
+  color: #053146;
+  font-size: 1.45rem;
+  font-family: "Poppins", cursive;
+  font-weight: 600;
   line-height: 1.2;
   padding-right: 1em;
   max-width: 340px;
 
   @media screen and (max-width: 48em) {
-    font-size: 1.3rem;
-  }
-
-  @media screen and (max-width: 30em) {
+    font-size: 1.24rem;
     text-align: center;
     margin-left: 1em;
   }
