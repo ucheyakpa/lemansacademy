@@ -50,8 +50,7 @@ const HeroSection = () => {
       </HeroContent>
 
       <HeroImageContainer>
-        <HeroImage width="330px" height="330px" src={heroImg} />
-        {/* <Skeleton height={330} /> */}
+        <HeroImage width="330px" height="330px" src={heroImg} />   
       </HeroImageContainer>
     </HeroContainer>
   );

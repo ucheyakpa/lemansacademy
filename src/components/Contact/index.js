@@ -83,7 +83,7 @@ const Contact = () => {
 
         <FormContainer>
           <Form onSubmit={handleSubmit}>
-            <FormHeader>Get a home lesson tutor</FormHeader>
+            <FormHeader>Get a home lesson tutor for your kid</FormHeader>
 
             <Input
               type="text"

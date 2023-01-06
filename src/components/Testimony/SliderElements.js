@@ -6,21 +6,17 @@ import {
 } from "react-icons/bs";
 
 export const SliderContainer = styled.section`
-  background: #f9f9f9;
-  padding-top: 26em;
+  /* background: #f9f9f9; */
+  padding-top: 20em;
   padding-bottom: 6.6em;
   padding-inline: 1.8em;
   position: relative;
-
-  /* @media screen and (max-width: 48em) {
-    padding-top: 24em;
-  } */
 `;
 
 export const HeaderText = styled.div`
   text-align: center;
   position: absolute;
-  top: 12em;
+  top: 7em;
   left: 50%;
   transform: translateX(-50%);
 `;
@@ -179,7 +175,7 @@ export const LeftQuote = styled(FaQuoteLeft)`
 
 export const RightSquare = styled(BsFillArrowRightSquareFill)`
   position: absolute;
-  top: 68%;
+  top: 62%;
   left: 5%;
   font-size: 2.5em;
   cursor: pointer;
@@ -190,14 +186,14 @@ export const RightSquare = styled(BsFillArrowRightSquareFill)`
   }
 
   @media screen and (max-width: 48em) {
-    top: 68.5%;
+    top: 65%;
     font-size: 2em;
   }
 `;
 
 export const ArrowLeft = styled(BsFillArrowLeftSquareFill)`
   position: absolute;
-  top: 68%;
+  top: 62%;
   right: 5%;
   font-size: 2.5em;
   cursor: pointer;
@@ -208,7 +204,7 @@ export const ArrowLeft = styled(BsFillArrowLeftSquareFill)`
   }
 
   @media screen and (max-width: 48em) {
-    top: 68.5%;
+    top: 65%;
     font-size: 2em;
   }
 `;

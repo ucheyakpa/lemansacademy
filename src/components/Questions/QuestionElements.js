@@ -4,7 +4,8 @@ import FAQ from "../../images/FAQ.png";
 
 export const QuestionsContainer = styled.section`
   background-color: #f9f9f9;
-  padding-bottom: 3.5em;
+  padding-top: 6em;
+  padding-bottom: 4em;
   background-image: url(${FAQ});
   background-repeat: no-repeat;
   background-size: 24%;

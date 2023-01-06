@@ -13,6 +13,7 @@ import {
   Logo,
   Image,
 } from "./SidebarElements";
+import logoWhite from "../../images/logo-lemans.png";
 
 import logoWhite from "../../images/logo-lemans.png";
 
