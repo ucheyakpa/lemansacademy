@@ -13,8 +13,10 @@ import {
   ArrowForword,
   ArrowRight,
   TopImage,
-  Image
+  Image,
 } from "./HeroElements";
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -29,10 +31,10 @@ const HeroSection = () => {
         <Image color="red" width="100px" height="100px" src={teacher} />
       </TopImage>
       <HeroContent>
-        <HeroH1>Learn, Skillup & Grow</HeroH1>
+        {<HeroH1>Learn, Skillup & Grow</HeroH1> || <Skeleton />}
         <HeroP>
-          Home lesson and acquisition of relevant tech 
-          skills for kids and teenagers
+          Home lesson and acquisition of relevant tech skills for kids and
+          teenagers
         </HeroP>
         <HeroBtnWrapper>
           <Button
@@ -46,8 +48,10 @@ const HeroSection = () => {
           </Button>
         </HeroBtnWrapper>
       </HeroContent>
+
       <HeroImageContainer>
         <HeroImage width="330px" height="330px" src={heroImg} />
+        {/* <Skeleton height={330} /> */}
       </HeroImageContainer>
     </HeroContainer>
   );

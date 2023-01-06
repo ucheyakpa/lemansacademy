@@ -17,7 +17,7 @@ const data = [
   {
     question: "Can my child combine home lesson & skill aquisition?",
     answer: `Yes, academic lesson during weekdays, while the 
-    weekend is for your tech skill acqusition`,
+    weekend is for tech skill acqusition`,
   },
 ];
 

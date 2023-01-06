@@ -9,8 +9,12 @@ import {
   SidebarMenu,
   SidebarRoute,
   SidebarLink,
-  SidebarTutor
+  SidebarTutor,
+  Logo,
+  Image,
 } from "./SidebarElements";
+
+import logoWhite from "../../images/logo-lemans.png";
 
 const Sidebar = ({ isOpen, toggle }) => {
   const toggleHome = () => {
@@ -20,6 +24,9 @@ const Sidebar = ({ isOpen, toggle }) => {
 
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
+      <Logo>
+        <Image src={logoWhite} />
+      </Logo>
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>

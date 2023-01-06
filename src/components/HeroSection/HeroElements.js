@@ -1,6 +1,7 @@
 import styled, { keyframes } from "styled-components";
 import { MdArrowForward, MdKeyboardArrowRight } from "react-icons/md";
-import bgImage from "../../images/tab-learning.jpg";
+// import bgImage from "../../images/tab-learning.jpg";
+import bgImage from "../../images/tech.jpg";
 
 export const HeroContainer = styled.div`
   background-image: url(${bgImage});
@@ -19,7 +20,7 @@ export const HeroContainer = styled.div`
     position: absolute;
     inset: 0;
     background-color: #12141d;
-    opacity: 0.9;
+    opacity: 0.8;
 
     @media screen and (max-width: 30em) {
       opacity: 0.8;
@@ -93,7 +94,13 @@ const jumping = keyframes`
 `;
 
 export const HeroImage = styled.img`
-  background-color: #c7e6f8;
+    /* background-image: linear-gradient(
+    to right,
+    #f6f7f8 0%,
+    #edeef1 10%,
+    #f6f7f8 20%,
+    #f6f7f8 100%
+  );  */
   border: 8px solid #c7e6f8;
   border-radius: 10px;
   max-width: 100%;

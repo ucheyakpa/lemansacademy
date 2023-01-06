@@ -111,3 +111,14 @@ export const SidebarRoute = styled(LinkRouter)`
     font-size: 1.3rem;
   }
 `;
+
+export const Logo = styled.div`
+  max-width: 10em;
+  position: absolute;
+  top: 0.4em;
+  left: 0.4em;
+`;
+
+export const Image = styled.img`
+  width: 100%;
+`;
