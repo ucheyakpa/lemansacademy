@@ -15,6 +15,8 @@ import {
 } from "./SidebarElements";
 import logoWhite from "../../images/logo-lemans.png";
 
+import logoWhite from "../../images/logo-lemans.png";
+
 const Sidebar = ({ isOpen, toggle }) => {
   const toggleHome = () => {
     toggle();

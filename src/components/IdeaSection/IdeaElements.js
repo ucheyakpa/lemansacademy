@@ -76,15 +76,20 @@ export const IdeaContent = styled.div`
 `;
 
 export const IdeaImage = styled.div`
-  width: 6.5em;
+  width: 9em;
 
   @media screen and (max-width: 48em) {
+    width: 7em;
+  }
+  
+  @media screen and (max-width: 30em) {
     width: 6em;
   }
 `;
 
 export const Image = styled.img`
   width: 100%;
+  height: auto;
 `;
 
 export const IdeaText = styled.div`
@@ -94,7 +99,7 @@ export const IdeaText = styled.div`
   flex-direction: column;
   max-width: 22.5em;
 
-  @media screen and (max-width: 48em) {
+  @media screen and (max-width: 60em) {
     text-align: center;
   }
 `;

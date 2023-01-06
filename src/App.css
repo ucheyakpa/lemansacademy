@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;700&family=Poppins:wght@400;500;600;700;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Urbanist:ital,wght@0,200;0,500;0,700;0,800;0,900;1,100;1,200;1,500;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Urbanist:ital,wght@0,200;0,500;0,700;0,800;0,900;1,100;1,200;1,500;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
@@ -50,4 +50,32 @@ a {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #fff;
+}
+
+/* Card Skeleton */
+.card-skeleton {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+
+.card-skeleton .left-col {
+  margin-right: 1em;
+}
+
+.card-skeleton .right-col {
+  flex: 1;
+  padding-right: 2em;
+}
+
+@media screen and (max-width: 71em) {
+  .card-skeleton {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+  }
+  .card-skeleton .right-col {
+    width: 100%;
+    margin-left: 1em;
+  }
 }
